@@ -1,15 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace HelloMe
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            string Name = "";
+
+            Console.WriteLine("Please enter your name");
+            Name = Console.ReadLine();
+            Console.WriteLine("Hello " + Name);
+            Console.ReadLine();
         }
     }
 }
